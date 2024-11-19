@@ -1,5 +1,6 @@
 # The MuffinTime Datapack
-This datapack is used to change resources of totems while using [muffintime-resource-pack](https://github.com/RealMuffinTime/muffintime-resource-pack). For Minecraft Version `1.21.x`.
+
+This datapack is used to change resources of totems while using [muffintime-resource-pack](https://github.com/RealMuffinTime/muffintime-resource-pack). For Minecraft version `1.21–1.21.1`.
 
 It's is possible to change Totem textures via the command `/function muffintime:<totem_type>`.  
 Currently `<totem_type>` can be one of:
