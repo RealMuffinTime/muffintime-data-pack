@@ -1,7 +1,10 @@
 [
     {
         "function": "minecraft:set_custom_model_data",
-        "value": 69,
+        "strings": {
+            "values": ["ahegao"],
+            "mode": "replace_all"
+        },
         "conditions": [
             {
                 "condition": "minecraft:entity_properties",

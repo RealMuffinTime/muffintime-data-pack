@@ -1,7 +1,10 @@
 [
     {
         "function": "minecraft:set_custom_model_data",
-        "value": 2,
+        "strings": {
+            "values": ["red"],
+            "mode": "replace_all"
+        },
         "conditions": [
             {
                 "condition": "minecraft:entity_properties",

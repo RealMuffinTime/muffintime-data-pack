@@ -4,19 +4,20 @@
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/zhYMjiZY?color=blue&logo=modrinth&style=for-the-badge)](https://modrinth.com/datapack/muffintime-data-pack)
 
 This datapack is used to change resources of totems while using [muffintime-resource-pack](https://github.com/RealMuffinTime/muffintime-resource-pack).  
-For Minecraft version `1.21.2-1.21.3`.
+For Minecraft version `1.21.4`.
 
 ## Features
 
 It's is possible to change Totem textures via the command `/function muffintime:<totem_type>`.  
 Currently `<totem_type>` can be one of:
-   | Custom item texture for totem    | custom_model_data | `<totem_type>`    |
-   | -------------------------------- | ----------------- | ----------------- |
-   | UNO Reverse Card Green           | 0                 | green             |
-   | UNO Reverse Card Blue            | 1                 | blue              |
-   | UNO Reverse Card Red             | 2                 | red               |
-   | UNO Reverse Card Yellow          | 3                 | yellow            |
-   | Animated UNO Reverse Card Ahegao | 69                | ahegao            |
+
+| Custom item texture for totem    | custom_model_data | `<totem_type>`    |
+| -------------------------------- | ----------------- | ----------------- |
+| UNO Reverse Card Green           | green             | green             |
+| UNO Reverse Card Blue            | blue              | blue              |
+| UNO Reverse Card Red             | red               | red               |
+| UNO Reverse Card Yellow          | yellow            | yellow            |
+| Animated UNO Reverse Card Ahegao | ahegao            | ahegao            |
 
 The totem needs to be hold in mainhand, while running the command.
 
