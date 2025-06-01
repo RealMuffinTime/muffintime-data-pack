@@ -1,7 +1,7 @@
 # The MuffinTime Datapack
 
 This datapack is used to change resources of totems while using [muffintime-resource-pack](https://github.com/RealMuffinTime/muffintime-resource-pack).  
-For Minecraft version `1.21-1.21.1`.
+For Minecraft version `1.21.2-1.21.3`.
 
 ## Features
 
