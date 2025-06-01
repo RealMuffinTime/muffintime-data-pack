@@ -1,0 +1,5 @@
+.vscode/
+.env
+github-changelog.md
+modrinth-changelog.md
+muffintime*.zip

@@ -1,0 +1,48 @@
+name: release
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - v*
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Check out repository
+      - name: checkout repository
+        uses: actions/checkout@v4
+
+      # Run script to generate zip and specific changelog
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Run Python script
+        run: python .github/workflows/release.py
+
+      # Publish release to Modrinth and GitHub
+      - uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          name: "${{env.NAME}}"
+          version: "v${{env.VERSION}}"
+          version-type: release
+          game-versions: "${{env.MINECRAFT_VERSION}}"
+          loaders: datapack
+          game-version-filter: releases
+          files: "muffintime-data-pack-${{env.VERSION}}.jar"
+
+          # Config for Modrinth
+          modrinth-id: zhYMjiZY
+          modrinth-token: ${{ secrets.PUBLISH_MODRINTH_TOKEN }}
+          modrinth-changelog-file: modrinth-changelog.md
+          modrinth-dependencies: vpgX4W3y(optional)
+
+          # Config for GitHub
+          github-token: ${{ secrets.PUBLISH_GITHUB_TOKEN }}
+          github-tag: "${{env.VERSION}}"
+          github-changelog-file: github-changelog.md
