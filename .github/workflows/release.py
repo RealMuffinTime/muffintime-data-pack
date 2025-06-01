@@ -1,5 +1,4 @@
 import os
-import datetime
 import zipfile
 
 version = ""
@@ -14,7 +13,7 @@ with open("CHANGELOG.md", "r") as inFile:
             break
         elif line.startswith("## "):
             version = line.split("[")[1].split("]")[0]
-            envFile.write(f"\nNAME=Version {version} - {line.split(" ")[-1].strip()}")
+            envFile.write(f"\nNAME=Version {version} - {line.split(' ')[-1].strip()}")
             envFile.write(f"\nVERSION={version}")
         elif line.startswith("### "):
             modrinthFile.write(line)
