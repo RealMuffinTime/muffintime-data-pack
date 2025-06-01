@@ -34,7 +34,7 @@ jobs:
           game-versions: "${{env.MINECRAFT_VERSION}}"
           loaders: datapack
           game-version-filter: releases
-          files: "muffintime-data-pack-${{env.VERSION}}.jar"
+          files: "muffintime-data-pack-${{env.VERSION}}.zip"
 
           # Config for Modrinth
           modrinth-id: zhYMjiZY
