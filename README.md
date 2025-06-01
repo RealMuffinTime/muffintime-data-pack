@@ -4,7 +4,7 @@
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/zhYMjiZY?color=blue&logo=modrinth&style=for-the-badge)](https://modrinth.com/datapack/muffintime-data-pack)
 
 This datapack is used to change resources of totems while using [muffintime-resource-pack](https://github.com/RealMuffinTime/muffintime-resource-pack).  
-For Minecraft version `1.21.4`.
+For Minecraft version `1.21.5`.
 
 ## Features
 
@@ -21,7 +21,7 @@ Currently `<totem_type>` can be one of:
 
 The totem needs to be hold in mainhand, while running the command.
 
-It is recommended to install a permission system, because the `/funtion` command is by default only available to server operators.
+It is recommended to install a permission system, because the `/function` command is by default only available to server operators.
 
 ## Credits
 
