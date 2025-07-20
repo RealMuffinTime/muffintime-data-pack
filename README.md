@@ -4,7 +4,6 @@
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/zhYMjiZY?color=blue&logo=modrinth&style=for-the-badge)](https://modrinth.com/datapack/muffintime-data-pack)
 
 This datapack is used to change resources of totems while using [muffintime-resource-pack](https://github.com/RealMuffinTime/muffintime-resource-pack).  
-For Minecraft version `1.21.5`.
 
 ## Features
 

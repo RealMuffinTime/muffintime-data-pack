@@ -1,3 +1,7 @@
+## Version [v2.1.3](https://github.com/RealMuffinTime/muffintime-data-pack/releases/tag/v2.1.3) - 2025-07-20
+### Changes
+- Support Minecraft version `1.21.6`
+
 ## Version [v2.1.2](https://github.com/RealMuffinTime/muffintime-data-pack/releases/tag/v2.1.2) - 2025-06-01
 ### Changes
 - Support Minecraft version `1.21.5`
