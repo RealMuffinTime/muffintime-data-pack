@@ -22,12 +22,13 @@ with open("CHANGELOG.md", "r") as inFile:
             modrinthFile.write(line)
             githubFile.write(line)
 
-with open("README.md", "r") as inFile:
+with open("CHANGELOG.md", "r") as inFile:
     for line in inFile.readlines():
-        if line.startswith("For Minecraft version "):
+        if line.startswith("- Support Minecraft version "):
             githubFile.write(f"\nFor Minecraft version `{line.split('`')[1]}`.")
             minecraftVersions = line.split('`')[1].split("-")
             envFile.write(f"\nMINECRAFT_VERSION=>={minecraftVersions[0]} <={minecraftVersions[-1]}")
+            break
 
 zf = zipfile.ZipFile(f"muffintime-data-pack-{version}.zip", "w")
 for dirname, subdirs, files in os.walk("."):
