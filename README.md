@@ -23,8 +23,9 @@ Currently `<totem_type>` can be one of:
 | UNO Reverse Card Red             | red               | red               |
 | UNO Reverse Card Yellow          | yellow            | yellow            |
 | Animated UNO Reverse Card Ahegao | ahegao            | ahegao            |
+| Cosmic UNO Reverse Card          | cosmic            | cosmic            |
 
-The totem needs to be hold in mainhand, while running the command.
+Changed data is applied to every totem in your inventory. 
 
 It is recommended to install a permission system, because the `/function` command is by default only available to server operators.
 

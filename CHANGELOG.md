@@ -1,3 +1,11 @@
+## Version [v2.2.0](https://github.com/RealMuffinTime/muffintime-data-pack/releases/tag/v2.2.0) - 2026-01-09
+### New Stuff
+- Add support for cosmic uno reverse card
+### Changes
+- Warn instead of fail workflow run on error
+- On command change all totems currently hold in inventory
+- Support Minecraft version `1.21.11`
+
 ## Version [v2.1.5](https://github.com/RealMuffinTime/muffintime-data-pack/releases/tag/v2.1.5) - 2025-10-09
 ### New Stuff
 - Add image overview to README.md
