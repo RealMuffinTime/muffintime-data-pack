@@ -1,4 +1,5 @@
 .vscode/
+.idea/
 .env
 github-changelog.md
 modrinth-changelog.md
