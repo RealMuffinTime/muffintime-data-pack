@@ -1,3 +1,7 @@
+## Version [v2.2.1](https://github.com/RealMuffinTime/muffintime-data-pack/releases/tag/v2.2.0) - 2026-04-05
+### Changes
+- Support Minecraft version `26.1-26.1.1`
+
 ## Version [v2.2.0](https://github.com/RealMuffinTime/muffintime-data-pack/releases/tag/v2.2.0) - 2026-01-09
 ### New Stuff
 - Add support for cosmic uno reverse card
